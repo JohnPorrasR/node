@@ -1,5 +1,5 @@
 {
-  "name": "demo-nodejs",
+  "name": "demo-db",
   "version": "1.0.0",
   "description": "Desarrollando una demo en nodejs",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "setup": "DEBUG=demo:* node setup.js",
     "lint": "standard"
   },
-  "author": "JohnPorrasR",
+  "author": "@johnporrasr",
   "license": "MIT",
   "devDependencies": {
     "ava": "^0.22.0",
