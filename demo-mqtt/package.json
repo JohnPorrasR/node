@@ -22,9 +22,13 @@
   "dependencies": {
     "chalk": "^2.2.0",
     "debug": "^3.1.0",
+    "demo-db": "file:../demo-db",
     "mosca": "^2.6.0",
     "nodemon": "^1.12.1",
     "redis": "^2.8.0",
     "standard": "^10.0.3"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.6.2"
   }
 }
