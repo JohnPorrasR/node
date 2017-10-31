@@ -8,6 +8,10 @@
     "setup": "DEBUG=demo:* node setup.js",
     "lint": "standard"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnPorrasR/node.git"
+  },
   "author": "@johnporrasr",
   "license": "MIT",
   "devDependencies": {
