@@ -5,6 +5,7 @@
   "main": "server.js",
   "private": true,
   "scripts": {
+    "test": "DEBUG=demo:* ava tests/ --verbose",
     "start": "NODE_ENV=production node server.js",
     "start-dev": "DEBUG=demo:* nodemon server.js",
     "lint": "standard"
@@ -20,12 +21,16 @@
   },
   "homepage": "https://github.com/JohnPorrasR/node#readme",
   "devDependencies": {
+    "ava": "^0.23.0",
     "nodemon": "^1.12.1",
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "chalk": "^2.3.0",
     "debug": "^3.1.0",
-    "express": "^4.16.2"
+    "demo-db": "file:../demo-db",
+    "express": "^4.16.2",
+    "express-asyncify": "^1.0.0"
   }
 }
